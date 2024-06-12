@@ -12,6 +12,15 @@
     --green-300: #00837E;
     --green-500: #00875f;
     --red-500: #F75A70;
+    --purple-800: #800080;
+    --purple-900: #4b204b;
+    --purple-700: #341933;
+    --violet-500: #9400d3;
+    --magenta-600: #8b008b;
+    --fuchsia-700: #FF00FF;
+    --lilas-200: #ac58aa;
+    --lilas-300: #ad47ac;
+    --lilas-400: #cf9bcc;
 }
 
 *{
@@ -22,6 +31,6 @@
 
 body{
     color: white;
-    background: #121214;
+    background: var(--lilas-400);
     font-family: 'Roboto', sans-serif;
 }

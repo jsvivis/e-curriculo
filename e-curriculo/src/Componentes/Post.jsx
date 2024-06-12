@@ -7,20 +7,19 @@ export function Post() {
     <article className={styles.post}>
 <header>
 <div className={styles.author}>
-<img className={styles.avatar} src="https://images.vexels.com/media/users/3/147101/isolated/preview/
-b4a49d4b864c74bb73de63f080ad7930-instagram-profile-button.png" alt="imagem avatar" />
+<img className={styles.avatar} src="./img/avatar2.png" alt="imagem avatar" />
 <div className={styles.authorInfo}>
-    <strong >Nome Profissional</strong>
-    <span>Cargo/Função</span>
+    <strong >Viviane Santos</strong>
+    <span>Assistente de Produção</span>
 </div>
 </div>
   </header>
 <div className={styles.content}>
-   <p>Sobre Você</p>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea, accusamus quisquam modi consequuntur cumque officia voluptates nemo repellat. At, aperiam eligendi. Sint inventore illo dolore nulla eligendi numquam dignissimos velit quae non provident. Obcaecati rerum veniam et tempora assumenda suscipit illo inventore, facilis recusandae impedit soluta vitae sed ab.</p>
+   <p>Sou Técnica em Rede de Computadores, e Assistente Administrativa e apesar de não ter exercido diretamente a profissão estou em busca de uma recolocação no mercado de trabalho através da migração para área tecnológica, cursando Desenvolvedor Full Stack para adquirir novos conhecimentos, desenvolver e ganhar experiência na área. Assim como no Atendimento ao Cliente, Análise de Dados e Documentos, Resolução de Problemas, Call Center e Operações Sistêmicas. Estou em constante evolução e melhorias pessoal e profissional, pois acredito nas minhas capacidades, adaptação e crescimento.
+   </p>
 
-   <p><a href="">Link Repositorio</a></p>
-   <p><a href="">Ultimo Projeto</a></p>
+   <p><a href="https://github.com/jsvivis?tab=repositories">Repositórios GitHub</a></p>
+   <p><a href="https://github.com/jsvivis/vite-project">Ultimo Projeto</a></p>
 </div>
 
 <form className={styles.commentsForm}>
