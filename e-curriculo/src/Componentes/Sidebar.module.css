@@ -19,12 +19,12 @@
     width: 8rem;
     height: 8rem;
     border-radius: 10px;
-    border: 0px solid var(--gray-900);
-    outline: 3px solid var(--purple-800);
+    border: 3px solid var(var(--purple-800));
+    outline: 4px solid var(--purple-800);
 }
 .profile span{
     font-size: 0.875rem;
-    color: var(--gray-700);
+    color: var(--purple-700);
     line-height: 1.6;
     margin-bottom: 10px;
     font-size: 17px;

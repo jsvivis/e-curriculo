@@ -1,12 +1,12 @@
 .comments{
-    margin-top: 2rem;
+    margin-top: 1rem;
     gap: 1rem;
     display: flex;
 }
 
 .comments img{
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 8rem;
     border-radius: 8px;
 }
 
@@ -26,12 +26,62 @@
 flex: 1;
 }
 
+.escolaridade	{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--gray-400);
+    font-size: 18px; 
+    display: flex; 
+}
 
+.escolaridade strong{
+    line-height: 1;
+    color: var(--gray-100);
+}
+.academico img	{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;   
+}
+.skills	{
+width: 100%;
+margin-top: 0.5rem;
+padding-top: 1rem;
+border-top: 1px solid var(--gray-400);
+font-size: 18px; 
+}
 
-
-
-
-
-
-
-
+.skills strong{
+    line-height: 1;
+    color: var(--gray-100);
+}
+.habilidades img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 8px;  
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex: 3;
+    align-items: left;
+    justify-content: left;   
+}
+.lista	{
+background: var(--purple-700);
+border-radius: 8px;
+padding: 1rem;
+margin-top: 0.1rem;
+}
+.cursos	{
+    background: var(--purple-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 0.2rem;  
+}

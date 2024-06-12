@@ -4,13 +4,13 @@
     justify-content: center;
     padding: 1.25rem 0;
     height: 80px;
-    gap: 0.875rem;
+    align-items: center;
     color: var(--lilas-400);
 
 }
 
 .header img{
-    height: 2rem;
+    height: 3rem;
 
 }
 .header strong{
