@@ -76,7 +76,6 @@ export function Comments() {
  - Facilidade de Aprendizagem;<br />   
  - Desejo de evolução e Conhecimento.</p>                                             
  </div>
-
     </div>
     </div>
   )
