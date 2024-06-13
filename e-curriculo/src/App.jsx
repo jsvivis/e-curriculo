@@ -3,7 +3,7 @@ import {Header} from './Componentes/Header.jsx'
 import {Sidebar} from './Componentes/Sidebar.jsx'
 import {Post} from './Componentes/Post.jsx'
 import styles from './App.module.css'
-
+import {Footer} from './Componentes/Footer.jsx'
 
 export function App(){
   return (
@@ -15,6 +15,9 @@ export function App(){
 <main>
  <Post/>
 </main>
+
+
+<Footer/>
 
 </div>
 
