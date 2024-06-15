@@ -1,4 +1,6 @@
-import { Comments } from './Comments'
+import {Comments} from './Comments'
+import {Academic} from './Academic'
+import {Skill} from './Skill'
 import styles from './Post.module.css'
 
 export function Post() {
@@ -28,8 +30,27 @@ export function Post() {
 
 <div>
 <Comments/>
-
 </div>
+
+
+<form className={styles.commentsForm}>
+    <strong>Formação Acadêmica</strong>
+</form>
+
+<div>
+<Academic/>
+</div>
+
+<form className={styles.commentsForm}>
+    <strong>Habilidades</strong>
+</form>
+
+<div>
+<Skill/>
+</div>
+
+
+
 
     </article>
   )

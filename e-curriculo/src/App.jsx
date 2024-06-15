@@ -16,11 +16,11 @@ export function App(){
  <Post/>
 </main>
 
-<Footer/>
+
 
 
 </div>
-
+<Footer/>
    </div>
    
    
