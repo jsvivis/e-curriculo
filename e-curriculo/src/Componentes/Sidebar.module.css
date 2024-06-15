@@ -58,3 +58,74 @@
     color: var(--white);
     border-radius: 3px solid var(--purple-800);
 }
+.sidebar footer2 strong{
+    background-color: var(--purple-900);
+    color: var(--lilas-400);
+    border: 3px solid var(--purple-800);
+    border-radius: 8px;
+    border-bottom: 3px;
+    height: 50px;
+    width: 110%;
+    padding: 0 0.8rem;
+    font-weight: border;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap:2px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+
+.sidebar footer2 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+
+.sidebar footer a:hover{
+    background-color: var(--purple-900);
+    color: var(--lilas-400);
+    border-radius: 3px solid var(--purple-800);
+}
+.sidebar footer2 span{
+    background-color: var(--purple-900);
+    color: var(--lilas-400);
+    border: 3px solid var(--purple-800);
+    border-radius: 8px;
+    border-top: 2px;
+    height: 180px;
+    width: 110%;
+    padding: 0 1rem;
+    font-weight: border;
+    text-decoration: none;
+    display: flow-root;
+    gap:2px;
+    margin-bottom: 2px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: start;
+}
+
+.sidebar footer2 span:hover{
+    background-color: var(--purple-900);
+    color: var(--lilas-400);
+    border-radius: 3px solid var(--purple-800);
+}
+
+/*.sidebar footer2 p{
+    background-color: var(--purple-900);
+    color: var(--lilas-400);
+    border: 3px solid var(--purple-800);
+    border-radius: 8px;
+    height: 120px;
+    width: 110%;
+    padding: 0 1rem;
+    font-weight: border;
+    text-decoration: none;
+    display: flexbox;
+    gap:2px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}*/

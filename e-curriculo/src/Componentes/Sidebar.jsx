@@ -19,6 +19,22 @@ export function Sidebar() {
     <a href=""><img src="https://static.vecteezy.com/system/resources/previews/011/338/344/non_2x/contact-icon-with-phone-symbol-free-png.png" alt="" />(32) 9 9999-9999</a>
 </footer>
 
+<footer2>
+  <strong>Projeto produzido e desenvolvido em React.
+<img src="./img/react.png" alt="React" />
+  </strong>
+  <span>React (também denominado React.js) é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. <br />
+<li>Desenvolvedor:	Facebook</li>
+<li>Autor:	Jordan Walke</li>
+<li>Plataforma:	Multiplataforma</li>
+<li>Linguagem:  JavaScript</li>
+<li>Modelo do desenvolvimento:	Software de código aberto</li>
+<li>Sistema operativo:	Multiplataforma</li>
+  </span>  
+  
+</footer2>
+
+
     </aside>
   )
 }
